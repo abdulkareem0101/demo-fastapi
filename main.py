@@ -4,6 +4,8 @@ app = FastAPI()
 
 
 @app.get('/')
+
 def view():
+    
     return {'msg':'Helo Kareem'}
 
